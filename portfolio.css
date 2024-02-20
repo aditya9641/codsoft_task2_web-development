@@ -1,0 +1,170 @@
+/* Reset default margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9e0a5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container for centralizing content */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    background: linear-gradient(to right, #ff6b6b, #fcb045);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Header title styling */
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    letter-spacing: 2px;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #fffcf2;
+}
+
+/* Section styling */
+section {
+    padding: 40px 0;
+}
+
+/* Section title styling */
+section h2 {
+    margin-top: 0;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Paragraph styling */
+section p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    text-align: center;
+}
+
+/* Unordered list styling */
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Project item styling */
+.project {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.project h3 {
+    background: linear-gradient(to right, #ff6b6b, #fcb045);
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.project p {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+/* Footer styling */
+footer {
+    background: linear-gradient(to right, #ff6b6b, #fcb045);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav ul li a {
+        font-size: 1em;
+    }
+
+    section h2 {
+        font-size: 2em;
+    }
+
+    section p {
+        font-size: 1em;
+    }
+
+    .project h3 {
+        font-size: 1.2em;
+    }
+
+    .project p {
+        font-size: 1em;
+    }
+}
+
+.profile-box {
+    width: 150px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 20px; /* Add margin for spacing */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    float: left; /* Align the box to the left */
+}
+
+.profile-picture {
+    width: 100%;
+    height: auto;
+}
